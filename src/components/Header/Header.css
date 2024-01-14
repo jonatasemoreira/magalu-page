@@ -1,0 +1,15 @@
+.Header {
+    background-color: #0e89ff;
+    color: white;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+.logo img {
+    width: 150px;
+}
+.logo-magalu {
+    width: 30%;
+    margin-top: 2rem;
+}

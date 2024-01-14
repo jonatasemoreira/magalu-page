@@ -1,0 +1,52 @@
+.Promotion {
+    padding: 1.5rem;
+    display: flex;
+}
+.banner-promotion {
+    width: 100%;
+    background-color: red;
+}
+.Promotion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Promotion div {
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 20%;
+}
+.Promotion div:hover {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+}
+.Promotion img {
+    width: 50%;
+}
+.Promotion img:hover {
+    animation: animarPromocao 2s infinite;
+}
+@keyframes animarPromocao {
+    0%,
+    100% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+}
+.banner {
+    text-align: left;
+    padding-left: 2rem;
+}
+@media(max-width:768px) {
+    .Promotion div {
+        width: 30%;
+    }
+}
+@media(max-width:424px) {
+    .Promotion div {
+        width: 50%;
+    }
+}

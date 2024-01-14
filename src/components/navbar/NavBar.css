@@ -1,0 +1,17 @@
+.NavBar {
+    margin: 0.5rem auto;
+    padding: 1.5rem;
+    display: flex;
+    color: white;
+}
+.NavBar div {
+    text-align: center;
+    width: 50%;
+    background-color: orange;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-r {
+    font-family: 'Courier New', Courier, monospace;
+}
